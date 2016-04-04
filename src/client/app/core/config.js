@@ -45,7 +45,6 @@
             };
 
             ready.$inject = ['dataservice'];
-            /* @ngInject */
             function ready(dataservice) {
                 return dataservice.ready();
             }
